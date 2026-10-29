@@ -1,3 +1,4 @@
+
 body{
   padding: 25px;
 }
@@ -11,18 +12,77 @@ body{
   padding : 10;
 }
 
-.boba_image {
-  width:20px;
+.boba_logo {
+  width:auto;
+  margin: 5px 10px 5px 10px;
   height:40px;
-  padding-right: 20px;
+  margin-right: 20px;
   mix-blend-mode: multiply;
 }
 
 .boba_drop_header{
   display:flex;
-  background-color:lavender
+  background-color:lavender;
+  border-radius:15px;
+  align-items:center;
 }
 
-.header_text{
-  text-align : center;
+
+.header_title{
+  align-items: center;
+  margin: 0px 5px 0px 10px
+}
+
+
+.header_info{
+  align-items: right;
+  margin:0px 0px 0px auto;
+}
+
+.header_info_text{
+  margin-right:10px;
+}
+
+boba_body{
+  display:flex;
+  flex-direction: column;
+}
+
+.boba_box{
+  display:flex;
+  align-items: stretch;
+}
+
+.milk_tea{
+  background-color: aliceblue;
+}
+
+.thai_tea{
+  background-color:lightcyan
+}
+
+.image_container{
+  flex-shrink: 0;
+}
+
+.text_container{
+  flex-grow: 1;
+  background-color:white;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.boba_type{
+  text-align: center;
+  font-size: larger;
+  padding:5px;
+}
+
+.boba_description{
+  font-size: medium;
+  padding:5px;
+}
+
+.boba_image{
+  mix-blend-mode: multiply;
 }
