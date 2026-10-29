@@ -4,6 +4,25 @@ body{
 .title {
 	color: #5C6AC4;
   text-align: center;
-  padding : 10;
   size : 10px;
+}
+
+.title_main{
+  padding : 10;
+}
+
+.boba_image {
+  width:20px;
+  height:40px;
+  padding-right: 20px;
+  mix-blend-mode: multiply;
+}
+
+.boba_drop_header{
+  display:flex;
+  background-color:lavender
+}
+
+.header_text{
+  text-align : center;
 }
