@@ -20,10 +20,13 @@ body{
 }
 
 .boba_drop_header{
+  position:fixed;
   display:flex;
   background-color:lavender;
   border-radius:15px;
   align-items:center;
+  z-index:1;
+  width:96%;
 }
 
 
@@ -42,22 +45,26 @@ body{
   margin-right:10px;
 }
 
-boba_body{
+.drink_body{
   display:flex;
   flex-direction: column;
 }
 
-.boba_box{
+.drink_box{
   display:flex;
   align-items: stretch;
 }
 
-.milk_tea{
+.first_drink{
   background-color: aliceblue;
 }
 
-.thai_tea{
-  background-color:lightcyan
+.second_drink{
+  background-color:lightgoldenrodyellow;
+}
+
+.third_drink{
+    background-color:lavenderblush;
 }
 
 .image_container{
@@ -83,6 +90,9 @@ boba_body{
   padding:5px;
 }
 
-.boba_image{
+.drink_image{
   mix-blend-mode: multiply;
+  max-width:83px;
+  border-radius:5px;
+  margin:5px;
 }
