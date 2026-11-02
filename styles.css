@@ -2,21 +2,10 @@
 body{
   padding: 25px;
 }
+
 .title {
   text-align: center;
   size : 10px;
-}
-
-.title_main{
-  padding : 10;
-}
-
-.boba_logo {
-  width:auto;
-  margin: 5px 10px 5px 10px;
-  height:40px;
-  margin-right: 20px;
-  mix-blend-mode: multiply;
 }
 
 .boba_drop_header{
@@ -29,6 +18,13 @@ body{
   width:96%;
 }
 
+.boba_logo {
+  width:auto;
+  margin: 5px 10px 5px 10px;
+  height:40px;
+  margin-right: 20px;
+  mix-blend-mode: multiply;
+}
 
 .header_title{
   align-items: center;
@@ -45,20 +41,24 @@ body{
   margin-right:10px;
 }
 
+
+/* Adds enough offset so that header doesn't cover text */
 .drink_menu_top{
   margin-top: 75px;
 }
 
+/* Stores all the drink cards */
 .drink_body{
   display:flex;
   flex-direction: column;
 }
 
+/* is essential so that the image and cards can be side-by-side */
 .drink_box{
   display:flex;
-  align-items: stretch;
 }
 
+/* Just some background colors */
 .first_drink{
   background-color: aliceblue;
 }
@@ -71,10 +71,7 @@ body{
     background-color:lavenderblush;
 }
 
-.image_container{
-  flex-shrink: 0;
-}
-
+/* Sets up the text portion of card */
 .text_container{
   flex-grow: 1;
   background-color:white;
@@ -95,6 +92,7 @@ body{
 }
 
 .drink_image{
+  /* Removes white backgrounds, plus looks better imo */
   mix-blend-mode: multiply;
   max-width:83px;
   border-radius:5px;
