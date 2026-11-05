@@ -3,11 +3,6 @@ body{
   padding: 25px;
 }
 
-.title {
-  text-align: center;
-  size : 10px;
-}
-
 .boba_drop_header{
   position:fixed;
   display:flex;
@@ -30,7 +25,6 @@ body{
   align-items: center;
   margin: 0px 5px 0px 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 
@@ -62,15 +56,15 @@ body{
 
 /* Just some background colors */
 .first_drink{
-  background-color: aliceblue;
+  background-color: rgb(232, 244, 255);
 }
 
 .second_drink{
-  background-color:lightgoldenrodyellow;
+    background-color:rgb(255, 228, 237);
 }
 
 .third_drink{
-    background-color:lavenderblush;
+  background-color: rgb(232, 244, 255);
 }
 
 /* Sets up the text portion of card */
